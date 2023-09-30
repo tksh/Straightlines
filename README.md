@@ -1,4 +1,4 @@
-# Uint8Portray
+# uint-n-portray
 
 A framework for producing simple and efficient vector drawings
 
