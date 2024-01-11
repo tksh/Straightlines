@@ -2,9 +2,11 @@
 
 A ruleset for producing simple and efficient vector drawings
 
-## Specifications
+- Draw using only straight strokes.
+- The numerical values of the coordinates are integers only.
 
-- Draw using only straight strokes with `<path>` element.
+## Specifications for SVG format
+
 - A stroke `<path>` has only coordinates attribute.
   - ```<path d="" />```
 - A stroke `<path>` should be placed inside a `<g>` element has only stroke width attribute.
