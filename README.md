@@ -6,7 +6,7 @@ A ruleset for producing simple and efficient vector drawings
 
 - Draw using only straight strokes with <path> element.
 - A stroke <path> has only coordinates attribute.
-  - <path d="" />
+  - > <path d="" />
 - A stroke <path> should be placed inside a group element has only stroke width attribute.
   - <g stroke-width="" />
 - A stroke width <g> should be placed inside a group element has only attributes related to color.
