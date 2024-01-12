@@ -2,6 +2,8 @@
 
 A subset of SVG for creating simple and efficient vector drawings
 
+## Core rules
+
 - Portray using straight lines only.
 - The coordinates of lines are unsigned integers only.
 - The range of coordinates is between 0 and (2 ^ N - 1).
@@ -18,7 +20,7 @@ A subset of SVG for creating simple and efficient vector drawings
 - A `<rect>` element of the same size as the canvas is required for the background color.
   - ```<rect width="100%" height="100%" fill="#FFFFFF" />```
 
-### Sample SVG of UInt8Portray ruleset drawing
+### Sample SVG of UInt8Portray ruleset
 
 ```xml
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255 255">
