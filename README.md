@@ -1,6 +1,6 @@
 # UIntNPortray
 
-A subset of SVG for creating simple and efficient vector drawings
+A subset of SVG to create simple and efficient vector drawings
 
 ## Core rules
 
