@@ -22,6 +22,8 @@ A subset of SVG for creating simple and efficient vector drawings
 
 ### Sample SVG of UInt8Portray ruleset
 
+#### In Absolute and Separated style
+
 ```xml
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255 255">
     <rect width="100%" height="100%" fill="#FFFFFF" />
@@ -40,6 +42,21 @@ A subset of SVG for creating simple and efficient vector drawings
             <path d="M 101 102 L 103 104" />
             <path d="M 105 106 L 107 108" />
         </g>
+    </g>
+</svg>
+```
+
+#### In Relative and Merged style
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255 255">
+    <rect width="100%" height="100%" fill="#FFFFFF" />
+    <g stroke="#000000" opacity="1.0" stroke-opacity="0.9">
+        <path stroke-width="3" d="m1 2 2 2m2 2 2 2" />
+    </g>
+    <g stroke="#AAAAAA" opacity="0.8" stroke-opacity="0.7">
+        <path stroke-width="2" d="m11 12 2 2m2 2 2 2" />
+        <path stroke-width="1" d="m101 102 2 2m2 2 2 2" />
     </g>
 </svg>
 ```
