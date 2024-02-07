@@ -9,20 +9,29 @@ A subset of SVG for creating simple and efficient vector drawings
 - The range of coordinates is between 0 and (2 ^ N - 1).
   - e.g. UInt8Portray: between 0 and 255 (2 ^ 8 - 1)
 
-## Structure
+## Basic structures for SVG format
 
-- A line `<path>` has only coordinates attribute.
-  - ```<path d="M 1 2 L 3 4" />```
-- A line `<path>` should be placed inside a `<g>` element has only width attribute.
-  - ```<g stroke-width="1" />```
-- A `<g>` element with width attribute should be placed inside a `<g>` element has only attributes related to color.
-  - ```<g stroke="#000000" opacity="1.0" stroke-opacity="0.9"/>```
-- A `<rect>` element of the same size as the canvas is required for the background color.
-  - ```<rect width="100%" height="100%" fill="#FFFFFF" />```
+- Whole lines `<path>` elements should be placed inside a color group `<g>` element.
+- Color group `<g>` elements have only attributes related to color like `stroke`, `opacity` and `stroke-opacity`
+- A `<rect>` element of the same size as the canvas is required for the background color with `fill` attribute.
+- There are two ways to express lines in SVG:
+  - Simple: *Absolute and Separated*
+  - Efficient: *Relative and Merged*
 
-### Sample SVG of UInt8Portray ruleset
+### Especially for *Absolute and Separated* style
 
-#### In Absolute and Separated style
+- A line `<path>` element has only `d` attribute.
+- A line `<path>` element should be placed inside a `<g>` element with only `stroke-width` attribute.
+- A `<g>` element with `stroke-width` attribute should be placed inside a color group `<g>` element.
+
+### Especially for *Relative and Merged* style
+
+- Lines `<path>` elements have `stroke-width` and `d` attribute.
+- Lines `<path>` elements should be placed inside a color group `<g>` element.
+
+### Sample SVG code of UInt8Portray
+
+#### In *Absolute and Separated* style
 
 ```xml
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255 255">
@@ -46,7 +55,7 @@ A subset of SVG for creating simple and efficient vector drawings
 </svg>
 ```
 
-#### In Relative and Merged style
+#### In *Relative and Merged* style
 
 ```xml
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255 255">
