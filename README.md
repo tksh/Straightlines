@@ -1,15 +1,17 @@
-# UIntNPortray
+# glin
+
+_glin_: **g**rouped straight **l**ines anchored to **i**nteger coordinates with **n**-bit precision
 
 A subset of SVG designed for creating simple and efficient vector drawings, tailored for my own artwork.
 
 ## Core Principles
 
-- Drawings are composed only of straight lines
+- Drawings are composed only of grouped straight lines
 - Line coordinates are unsigned integers
-- Coordinate values range from 0 to (2^N - 1), where N defines the bit width of the coordinates
-  - Concrete implementations are defined for different N values:
-    - _UInt5Portray_: coordinates range from 0 to 31 (2^5 - 1)
-    - _UInt8Portray_: coordinates range from 0 to 255 (2^8 - 1)
+- Coordinate values range from 0 to (2^n - 1), where `n` defines the bit width of the coordinates
+  - Concrete implementations are defined for different `n` values:
+    - _gli5_: 5-bit range (0–31)
+    - _gli8_: 8-bit range (0–255)
 
 ## Element Structures
 
