@@ -1,47 +1,46 @@
-# glin
+# Straightlines
 
-_glin_: **g**rouped straight **l**ines anchored to **i**nteger coordinates with **n**-bit precision
-
-A subset of SVG designed for creating simple and efficient vector drawings, tailored for my own artwork.
+A focused SVG subset that unlocks expressive vector art through deliberate simplicity.
 
 ## Core Principles
 
-- Drawings are composed only of grouped straight lines
-- Line coordinates are unsigned integers
-- Coordinate values range from 0 to (2^n - 1), where `n` defines the bit width of the coordinates
-  - Concrete implementations are defined for different `n` values:
-    - _gli5_: 5-bit range (0–31)
-    - _gli8_: 8-bit range (0–255)
+- Drawings are composed only of grouped straight lines.
+- Line coordinates use unsigned integers for precision with compactness.
+- Non-coordinate attributes are collectively applied through line groups.
 
 ## Element Structures
 
 - **Lines** (`<path>` element) must be placed inside a line group (`<g>` element)
 - **Line groups** must be at the same hierarchy level; nesting is not allowed
 
-## Element Attributes
+## Required Attributes
 
 ### Lines (`<path>`)
 
 - Each line must have (or inherit) the following two attributes:
-  - `d`: Coordinate values of start(x1, x2) and end(y1, y2) points of the line
+  - `d` — Line coordinates
     - Must be placed inside a `<path>`
     - Values are unsigned integers
-  - `stroke-width`: Width of the line
-    - Can be placed either inside a `<g>` or `<path>`, depending on the [_path-mode_](#path-mode)
+    - Represent the start(x1, x2) and end(y1, y2) points as absolute or relative:
+      - Absolute: `"M x1 y1 L x2 y2"`
+      - Relative: `"m x1 y1 x2 y2"`
+  - `stroke-width` — Line thickness
+    - Can be placed either inside a `<g>` or `<path>`, depending on the path modes
     - Values are unsigned integers
 
 ### Line Groups (`<g>`)
 
 - Each line group must have the following four attributes:
-  - `id`: Unique identifier
+  - `id` — Sequential unique identifier
     - Values are unsigned integers starting from 0
-  - `stroke`: Stroke color
+    - Lower values are rendered first, higher values are rendered on top
+  - `stroke` — Line color
     - Values are represented as rgb or hex
-  - `opacity`: Overall opacity
+  - `opacity` — Group-level transparency
     - Applies to entire line group (`<g>` element)
-    - Values are float from 0 to 1.0
-  - `stroke-opacity`: Stroke opacity
-    - Applies to individual lines (`<path>` element)
+    - Values are floats between 0 and 1.0
+  - `stroke-opacity` — Per-line transparency
+    - Applies to individual lines (`<path>` element) within the line group
     - Values are floats between 0 and 1.0
 
 #### Group ID Rules
@@ -51,12 +50,12 @@ A subset of SVG designed for creating simple and efficient vector drawings, tail
   - Should be constructed using one or two lines
 - Subsequent line groups (`id="1"`, `id="2"`, etc.) represent the actual drawn strokes
 
-## _path-mode_
+## Path Modes
 
-- Lines can be structured in two different styles:
-  1. Simple style: _Absolute-and-separated_
-  2. Efficient style: _Relative-and-merged_
-- These styles affect rendering through the application of `stroke-opacity`
+- Lines can be structured in two different modes:
+  1. Simple mode: _Absolute-and-separated_
+  2. Efficient mode: _Relative-and-merged_
+- These modes affect rendering through the application of `stroke-opacity`
 
 ### _Absolute-and-separated_
 
@@ -73,7 +72,7 @@ A subset of SVG designed for creating simple and efficient vector drawings, tail
   - Contain both `stroke-width` and `d` attributes
   - Be placed directly inside a line group
 
-## SVG Examples To Compare Both _path-mode_
+## SVG Examples
 
 ### _Absolute-and-separated_ Example
 
