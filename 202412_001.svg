@@ -1,0 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 31" shape-rendering="crispEdges">
+    <g id="0" stroke="rgb(187 187 187)" opacity="1.0" stroke-opacity="1.0">
+        <g stroke-width="31">
+            <path d="M 15 0 L 15 31" />
+            <path d="M 16 0 L 16 31" />
+        </g>
+    </g>
+    <g id="1" stroke="rgb(153 153 153)" opacity="0.8" stroke-opacity="1.0">
+        <g stroke-width="5">
+            <path d="M 13 20 L 13 26" />
+            <path d="M 17 21 L 17 25" />
+            <path d="M 13 23 L 9 27" />
+            <path d="M 29 27 L 27 31" />
+            <path d="M 20 13 L 24 22" />
+            <path d="M 24 14 L 19 23" />
+            <path d="M 19 10 L 20 14" />
+        </g>
+        <g stroke-width="3">
+            <path d="M 22 10 L 24 19" />
+            <path d="M 9 9 L 6 17" />
+            <path d="M 9 13 L 10 19" />
+            <path d="M 9 17 L 14 21" />
+            <path d="M 7 16 L 8 20" />
+            <path d="M 25 31 L 31 31" />
+            <path d="M 12 2 L 8 10" />
+            <path d="M 11 3 L 10 13" />
+            <path d="M 11 2 L 16 2" />
+            <path d="M 16 1 L 20 5" />
+        </g>
+        <g stroke-width="2">
+            <path d="M 12 3 L 19 4" />
+            <path d="M 17 4 L 20 10" />
+            <path d="M 13 10 L 14 12" />
+            <path d="M 10 11 L 13 12" />
+            <path d="M 17 11 L 21 10" />
+            <path d="M 20 15 L 19 20" />
+            <path d="M 13 21 L 17 22" />
+            <path d="M 22 8 L 22 12" />
+            <path d="M 23 9 L 25 18" />
+            <path d="M 23 25 L 29 27" />
+        </g>
+        <g stroke-width="1">
+            <path d="M 14 14 L 14 16" />
+            <path d="M 12 10 L 14 11" />
+            <path d="M 14 11 L 14 14" />
+            <path d="M 13 15 L 15 16" />
+            <path d="M 14 14 L 16 16" />
+            <path d="M 13 17 L 16 17" />
+            <path d="M 13 19 L 14 18" />
+            <path d="M 13 17 L 14 18" />
+            <path d="M 17 11 L 17 12" />
+            <path d="M 18 7 L 18 10" />
+            <path d="M 20 3 L 22 7" />
+            <path d="M 19 4 L 20 9" />
+            <path d="M 21 6 L 22 9" />
+            <path d="M 16 17 L 18 18" />
+            <path d="M 14 12 L 15 12" />
+            <path d="M 15 15 L 17 15" />
+            <path d="M 10 14 L 12 18" />
+            <path d="M 10 13 L 12 15" />
+            <path d="M 11 14 L 12 17" />
+            <path d="M 12 15 L 12 18" />
+            <path d="M 14 12 L 13 14" />
+        </g>
+    </g>
+    <g id="2" stroke="rgb(51 51 51)" opacity="1.0" stroke-opacity="1.0">
+        <g stroke-width="8">
+            <path d="M 2 25 L 4 31" />
+            <path d="M 5 25 L 8 31" />
+        </g>
+        <g stroke-width="3">
+            <path d="M 27 27 L 26 31" />
+            <path d="M 29 28 L 28 31" />
+            <path d="M 9 29 L 12 31" />
+            <path d="M 20 20 L 18 22" />
+            <path d="M 8 16 L 10 19" />
+            <path d="M 8 12 L 7 17" />
+        </g>
+        <g stroke-width="2">
+            <path d="M 9 9 L 9 14" />
+        </g>
+        <g stroke-width="1">
+            <path d="M 14 3 L 17 5" />
+            <path d="M 10 7 L 8 9" />
+            <path d="M 10 8 L 7 12" />
+            <path d="M 12 3 L 15 2" />
+            <path d="M 13 3 L 16 3" />
+            <path d="M 10 4 L 11 5" />
+            <path d="M 11 3 L 11 5" />
+            <path d="M 17 5 L 18 6" />
+            <path d="M 18 11 L 18 12" />
+            <path d="M 11 12 L 13 11" />
+            <path d="M 8 15 L 10 16" />
+            <path d="M 10 18 L 11 20" />
+            <path d="M 7 16 L 8 20" />
+            <path d="M 20 18 L 16 22" />
+            <path d="M 20 17 L 20 20" />
+            <path d="M 21 17 L 22 20" />
+            <path d="M 22 20 L 20 22" />
+            <path d="M 24 20 L 22 22" />
+            <path d="M 23 22 L 20 23" />
+            <path d="M 19 22 L 15 23" />
+            <path d="M 21 23 L 18 24" />
+            <path d="M 22 15 L 23 17" />
+            <path d="M 23 14 L 24 16" />
+            <path d="M 24 25 L 27 27" />
+            <path d="M 12 30 L 13 31" />
+            <path d="M 7 24 L 6 25" />
+            <path d="M 12 11 L 13 12" />
+        </g>
+    </g>
+    <g id="3" stroke="rgb(221 221 209)" opacity="0.6" stroke-opacity="1.0">
+        <g stroke-width="1">
+            <path d="M 19 4 L 21 9" />
+            <path d="M 18 1 L 22 5" />
+            <path d="M 22 5 L 24 9" />
+            <path d="M 21 5 L 22 8" />
+            <path d="M 16 2 L 19 6" />
+            <path d="M 19 5 L 20 11" />
+            <path d="M 20 12 L 22 17" />
+            <path d="M 21 8 L 22 11" />
+            <path d="M 13 1 L 11 3" />
+        </g>
+        <g stroke-width="2">
+            <path d="M 13 3 L 12 4" />
+            <path d="M 16 5 L 17 10" />
+            <path d="M 14 6 L 15 10" />
+        </g>
+        <g stroke-width="1">
+            <path d="M 14 5 L 12 10" />
+        </g>
+        <g stroke-width="2">
+            <path d="M 24 26 L 23 31" />
+            <path d="M 23 25 L 21 31" />
+            <path d="M 22 24 L 18 31" />
+            <path d="M 19 26 L 15 31" />
+            <path d="M 15 27 L 12 30" />
+        </g>
+        <g stroke-width="1">
+            <path d="M 15 11 L 16 11" />
+            <path d="M 15 14 L 17 14" />
+            <path d="M 17 13 L 18 15" />
+            <path d="M 17 15 L 16 17" />
+            <path d="M 18 16 L 17 17" />
+            <path d="M 15 16 L 15 17" />
+            <path d="M 15 19 L 17 19" />
+            <path d="M 17 18 L 15 18" />
+        </g>
+    </g>
+    <g id="4" stroke="rgb(221 221 233)" opacity="0.4" stroke-opacity="1.0">
+        <g stroke-width="1">
+            <path d="M 11 6 L 10 9" />
+            <path d="M 10 11 L 11 13" />
+            <path d="M 10 15 L 11 18" />
+            <path d="M 11 18 L 13 20" />
+            <path d="M 14 21 L 17 21" />
+            <path d="M 7 15 L 6 19" />
+            <path d="M 8 18 L 7 20" />
+            <path d="M 7 10 L 5 16" />
+            <path d="M 9 10 L 6 12" />
+            <path d="M 11 6 L 8 8" />
+            <path d="M 10 5 L 8 6" />
+            <path d="M 11 1 L 9 4" />
+            <path d="M 0 26 L 7 24" />
+            <path d="M 11 21 L 11 25" />
+        </g>
+    </g>
+    <g id="5" stroke="rgb(0 0 0)" opacity="1.0" stroke-opacity="1.0">
+        <g stroke-width="1">
+            <path d="M 18 11 L 19 13" />
+            <path d="M 17 5 L 19 9" />
+            <path d="M 15 3 L 17 4" />
+            <path d="M 20 19 L 17 21" />
+            <path d="M 20 19 L 19 23" />
+            <path d="M 19 20 L 17 23" />
+            <path d="M 23 21 L 21 22" />
+            <path d="M 19 14 L 20 17" />
+            <path d="M 22 18 L 22 20" />
+            <path d="M 10 15 L 10 19" />
+            <path d="M 9 15 L 11 20" />
+            <path d="M 9 12 L 7 17" />
+            <path d="M 9 15 L 7 17" />
+            <path d="M 10 16 L 8 19" />
+            <path d="M 9 13 L 9 17" />
+            <path d="M 8 24 L 10 28" />
+            <path d="M 6 25 L 8 28" />
+            <path d="M 4 26 L 5 27" />
+            <path d="M 17 10 L 19 10" />
+            <path d="M 19 13 L 19 14" />
+            <path d="M 15 15 L 15 16" />
+            <path d="M 14 17 L 14 18" />
+            <path d="M 14 22 L 17 22" />
+        </g>
+    </g>
+    <g id="6" stroke="rgb(102 102 108)" opacity="0.6" stroke-opacity="1.0">
+        <g stroke-width="1">
+            <path d="M 17 10 L 19 10" />
+            <path d="M 17 10 L 20 16" />
+            <path d="M 19 10 L 19 14" />
+            <path d="M 18 7 L 19 10" />
+            <path d="M 13 10 L 14 12" />
+            <path d="M 12 11 L 12 13" />
+            <path d="M 11 11 L 12 10" />
+            <path d="M 15 15 L 14 17" />
+            <path d="M 14 15 L 14 16" />
+            <path d="M 13 17 L 14 18" />
+            <path d="M 14 20 L 17 21" />
+            <path d="M 16 20 L 18 20" />
+            <path d="M 19 16 L 19 19" />
+            <path d="M 17 17 L 18 17" />
+            <path d="M 11 13 L 11 15" />
+            <path d="M 13 21 L 13 26" />
+            <path d="M 14 21 L 15 25" />
+            <path d="M 15 21 L 16 25" />
+            <path d="M 16 22 L 17 25" />
+            <path d="M 17 22 L 18 24" />
+            <path d="M 10 24 L 10 26" />
+            <path d="M 12 24 L 12 26" />
+            <path d="M 5 16 L 7 19" />
+            <path d="M 5 14 L 7 16" />
+            <path d="M 6 12 L 8 14" />
+            <path d="M 7 10 L 9 12" />
+            <path d="M 7 8 L 10 10" />
+            <path d="M 8 6 L 10 8" />
+            <path d="M 9 5 L 11 6" />
+            <path d="M 10 3 L 12 4" />
+            <path d="M 11 1 L 12 2" />
+            <path d="M 13 1 L 14 0" />
+            <path d="M 13 2 L 16 0" />
+            <path d="M 14 3 L 17 1" />
+            <path d="M 17 2 L 19 2" />
+            <path d="M 15 12 L 14 13" />
+            <path d="M 23 11 L 24 15" />
+            <path d="M 21 12 L 23 16" />
+            <path d="M 24 16 L 26 17" />
+            <path d="M 24 16 L 25 19" />
+            <path d="M 23 17 L 24 20" />
+            <path d="M 23 20 L 19 23" />
+            <path d="M 25 19 L 23 22" />
+            <path d="M 26 20 L 25 22" />
+            <path d="M 14 22 L 14 26" />
+            <path d="M 24 25 L 28 26" />
+            <path d="M 28 27 L 31 29" />
+            <path d="M 31 29 L 30 31" />
+            <path d="M 27 27 L 26 30" />
+            <path d="M 29 28 L 28 30" />
+            <path d="M 10 29 L 11 31" />
+            <path d="M 8 29 L 9 31" />
+            <path d="M 0 26 L 0 31" />
+            <path d="M 1 26 L 1 28" />
+            <path d="M 11 1 L 9 3" />
+            <path d="M 11 2 L 8 6" />
+            <path d="M 12 3 L 10 5" />
+            <path d="M 14 14 L 15 14" />
+            <path d="M 10 10 L 12 13" />
+            <path d="M 12 17 L 13 19" />
+            <path d="M 14 18 L 14 20" />
+            <path d="M 13 18 L 13 20" />
+        </g>
+    </g>
+</svg>

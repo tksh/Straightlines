@@ -72,7 +72,7 @@ A focused SVG subset that unlocks expressive vector art through deliberate simpl
   - Contain both `stroke-width` and `d` attributes
   - Be placed directly inside a line group
 
-## SVG Examples
+## SVG Structure Examples
 
 ### _Absolute-and-separated_ Example
 
@@ -119,3 +119,17 @@ A focused SVG subset that unlocks expressive vector art through deliberate simpl
     </g>
 </svg>
 ```
+
+---
+
+## Implementations
+
+### Artwork
+
+![202412_001](202412_001.svg)
+
+### Web Application (Work in Progress)
+
+- <https://pfpg.netlify.app>
+  - Web application for customizing and rendering Straightlines-based artwork.
+  - The application extends the original specifications with additional features not described in this document.
